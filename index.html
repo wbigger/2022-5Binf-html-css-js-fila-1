@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="boards-container">
+        <div id="first-board" class="grid-container">
+            <div data-n="1" class="grid-item dispari">1</div>
+            <div data-n="2" class="grid-item pari">2</div>
+            <div data-n="3" class="grid-item dispari">3</div>
+            <div data-n="4" class="grid-item pari">4</div>
+            <div data-n="5" class="grid-item dispari">5</div>
+            <div data-n="6" class="grid-item pari">6</div>
+            <div data-n="7" class="grid-item dispari">7</div>
+            <div data-n="8" class="grid-item pari">8</div>
+            <div data-n="9" class="grid-item dispari">9</div>
+        </div>
+        <div id="second-board" class="grid-container">
+            <div data-n="9" class="grid-item dispari">9</div>
+            <div data-n="8" class="grid-item pari">8</div>
+            <div data-n="7" class="grid-item dispari">7</div>
+            <div data-n="6" class="grid-item pari">6</div>
+            <div data-n="5" class="grid-item dispari">5</div>
+            <div data-n="4" class="grid-item pari">4</div>
+            <div data-n="3" class="grid-item dispari">3</div>
+            <div data-n="2" class="grid-item pari">2</div>
+            <div data-n="1" class="grid-item dispari">1</div>
+        </div>
+    </div>
+    <div id="controls">
+        <button id="pari" onclick="onPari()">Pari</button>
+        <button id="dispari" onclick="onDispari()">Dispari</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
